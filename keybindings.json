@@ -123,5 +123,15 @@
     {
         "key": "ctrl+shift+s",
         "command": "saveAll"
-    }
+    },
+	{
+		"key": "alt+i",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "alt+k",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
 ]
