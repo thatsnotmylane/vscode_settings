@@ -133,5 +133,13 @@
 		"key": "alt+k",
 		"command": "selectNextSuggestion",
 		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-	},
+    },
+    {
+        "key": "alt+o",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "alt+u",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
 ]
